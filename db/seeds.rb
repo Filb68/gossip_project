@@ -32,7 +32,7 @@ nb_city.times do |x|
 		name: Faker::Address.city,
 		zip_code: Faker::Address.zip_code)
 	cities << city
- 	puts "Seeding vity nb#{x}"
+ 	puts "Seeding city nb#{x}"
 end
 
 
